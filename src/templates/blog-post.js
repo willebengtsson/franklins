@@ -16,7 +16,7 @@ class BlogPostTemplate extends React.Component {
         <div className={heroStyles.hero}>
           <Img className={heroStyles.heroImage} alt={post.title} sizes={post.heroImage.sizes} />
         </div>
-        <div className="wrapper">
+        <div className="wrapper-blog-post">
           <h1 className="section-headline">{post.title}</h1>
           <p
             style={{
