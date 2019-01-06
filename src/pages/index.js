@@ -11,10 +11,18 @@ class RootIndex extends React.Component {
     const [author] = get(this, 'props.data.allContentfulPerson.edges')
 
     return (
+      <div>
+
+      <div className="uppe">
+      <div className="uppeDetails">
+      <h2 className="section-heroline">William's blog</h2>
+      <h2 className="section-herosubline">This is a blog by William Bengtsson, a product designer in Stockholm, Sweden. The blog will tell tales about product design as well as the life of running a small sideproject.</h2>
+      </div>
+      </div>
+
+      <div className="content">
       <div style={{ background: '#fff' }}>
         <Helmet title={siteTitle} />
-        <Hero data={author.node} />
-        <div className="wrapper">
           <h2 className="section-headline">Williams articles</h2>
           <ul className="article-list">
             {posts.map(({ node }) => {
@@ -25,7 +33,8 @@ class RootIndex extends React.Component {
               )
             })}
           </ul>
-        </div>
+      </div>
+      </div>
       </div>
     )
   }
