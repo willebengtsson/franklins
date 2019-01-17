@@ -15,7 +15,7 @@ class RootIndex extends React.Component {
 
       <div className="uppe">
       <div className="uppeDetails">
-      <h2 className="section-heroline">Williamz blog</h2>
+      <h2 className="section-heroline">Design blog</h2>
       <h2 className="section-herosubline">This is a blog by William Bengtsson, a product designer in Stockholm, Sweden. The blog will tell tales about product design as well as the life of running a small sideproject.</h2>
       </div>
       </div>
