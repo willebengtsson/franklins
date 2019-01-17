@@ -40,6 +40,22 @@ class BlogIndex extends React.Component {
           <button type="submit">Send</button>
           </p>
           </form>
+
+          <form name="contacta" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+  {/* You still need to add the hidden input with the form name to your JSX form */}
+  <input type="hidden" name="form-name" value="contact" />
+            <p>
+          <label>NAME <input type="text" name="name" /></label>
+          </p>
+          <p>
+          <label>EMAIL <input type="email" name="email" /></label>
+          </p>
+          <p>
+          <button type="submit">Send</button>
+          </p>
+</form>
+
+
           </div>
 
       </div>
