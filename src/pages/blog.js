@@ -41,10 +41,10 @@ class BlogIndex extends React.Component {
           </p>
           </form>
 
-          <form name="contacta" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-  {/* You still need to add the hidden input with the form name to your JSX form */}
-  <input type="hidden" name="form-name" value="contact" />
-            <p>
+          <form name="contacta" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action="/pages/blog.js">
+          {/* You still need to add the hidden input with the form name to your JSX form */}
+          <input type="hidden" name="form-name" value="contact" />
+          <p>
           <label>NAME <input type="text" name="name" /></label>
           </p>
           <p>
@@ -53,7 +53,7 @@ class BlogIndex extends React.Component {
           <p>
           <button type="submit">Send</button>
           </p>
-</form>
+        </form>
 
 
           </div>
