@@ -14,7 +14,7 @@
 .navigationItem {
   display: inline-flex;
   align-items: center;
-  margin: 0 1em;
+  margin: 0px 40px 0px 0px;
 }
 
 .navigationItem a {
