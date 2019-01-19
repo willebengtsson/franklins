@@ -12,7 +12,7 @@ class BlogIndex extends React.Component {
 
     return (
       <div>
-
+      
       <div className="uppe-blog">
       <div className="uppeDetailsBlog">
       <h2 className="section-heroline">About</h2>
